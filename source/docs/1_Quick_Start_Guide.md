@@ -42,7 +42,7 @@ Since burning the firmware will format the SD card, please back it up in advance
 
 <img class="common_img" src="../_static/media/chapter_1/section_1/media/image9.png" />
 
-7) You can select the download path in position 1, or enter the path in position 2. After selection, click position 3 to confirm.
+7) You can select the download path in position 1, or enter the path in position 2. After selection, click **OK** to confirm.
 
 <img class="common_img" src="../_static/media/chapter_1/section_1/media/image10.png"   />
 
@@ -116,7 +116,7 @@ Since burning the firmware will format the SD card, please back it up in advance
 
 1. Insert the SD card into the K230 board and connect it to your computer. In **This PC**, a new drive named **CanMV** appears, representing the built-in file system of the K230.
 
-<img src="../_static/media/chapter_1/section_1/media/image35.png" class="common_img" style="width:900px"/>
+<img src="../_static/media/chapter_1/section_1/media/image35.png" class="common_img"/>
 
 2. Open the **CanMV** drive to access two directories: `sdcard` and `data`.
 
@@ -124,9 +124,11 @@ Since burning the firmware will format the SD card, please back it up in advance
 
 3. The `sdcard` directory stores MicroPython libraries and official example programs.
 
-<img src="../_static/media/chapter_1/section_1/media/image34.png" class="common_img" style="width:900px"/>
+<img src="../_static/media/chapter_1/section_1/media/image34.png" class="common_img"/>
 
 4. The `data` directory provides the remaining available space on the SD card.
+
+<p id="anchor_1_3"></p>
 
 ## 1.3 Setting Up Development Environment
 
@@ -160,7 +162,7 @@ Since burning the firmware will format the SD card, please back it up in advance
 
 <img class="common_img" src="../_static/media/chapter_1/section_2/media/image8.png" />
 
-4)  Check **I accept this license**, then click **Next** to continue the installation.
+4)  Check **I accept the license**, then click **Next** to continue the installation.
 
 <img class="common_img" src="../_static/media/chapter_1/section_2/media/image9.png" />
 
@@ -178,7 +180,7 @@ Since burning the firmware will format the SD card, please back it up in advance
 
 ## 1.4 CanMV IDE Interface Introduction
 
-This section provides a brief overview of the CanMV IDE interface. For CanMV IDE installation, please refer to the section **[1.2 Setting Up Development Environment](#anchor_1_2)**.
+This section provides a brief overview of the CanMV IDE interface. For CanMV IDE installation, please refer to the section **[1.3 Setting Up Development Environment](#anchor_1_3)**.
 
 1)  The CanMV IDE interface when not connected to the K230 development board is shown below:
 
@@ -384,6 +386,7 @@ select_display = 1 # HDMI display
 > else:
 >   display_size = [1280,720]
 > ```
+>
 
 ### 1.7.2 LCD Display Mode
 
@@ -412,6 +415,7 @@ select_display = 2 # LCD display
 > else:
 >   display_size = [1280,720]
 > ```
+>
 
 ### 1.7.3 IDE Virtual Display Mode
 

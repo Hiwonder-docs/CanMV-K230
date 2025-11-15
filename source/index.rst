@@ -11,7 +11,7 @@ CanMV K230
    :maxdepth: 2
    :caption: CanMV K230
 
-   docs/Quick_Start_Guide_(Must_Read).md
+   docs/README.md
    docs/1_Quick_Start_Guide.md
    docs/2_Basic_Course.md
    docs/3_Multimedia_Course.md

@@ -422,7 +422,7 @@ This section demonstrates how to use programming to explore the I2C functionalit
 1. Connect the K230 development board to your PC using a Type-C data cable, as shown below:
 
 <img class="common_img" src="../_static/media/chapter_2/section_4/media/image2.png" width="500px" />
-   
+
 2. Double-click to open CanMV IDE K230.
 
 <img class="common_img" src="../_static/media/chapter_2/section_4/media/image3.png" />
@@ -802,7 +802,7 @@ This section demonstrates how to use programming to explore the ADC functionalit
 
 1. Connect the K230 development board to your PC using a Type-C data cable, as shown below:
 
-<img class="common_img" src="../_static/media/chapter_2/section_7/media/image2.png" width="500px" />
+<img class="common_img" src="../_static/media/chapter_2/section_7/media/image2.jpg" width="500px" />
 
 2. Double-click to open CanMV IDE K230.
 
@@ -1628,7 +1628,7 @@ def unpad(data):
 crypto = ucryptolib.aes(aes[0].key, 1, aes[0].iv)
 
 ct = crypto.encrypt(pt_padded)
-print('密文:', ct)
+print('Ciphertext:', ct)
 ```
 
 Encryption is performed by initializing `ucryptolib.aes` with a key, using ECB mode as the encryption mode, and an initialization vector iv. The method `crypto.encrypt(pt_padded)` encrypts the padded plaintext and returns the ciphertext ct.
@@ -1649,8 +1649,6 @@ print('Does it match:', pt_dec == pt)
 2. `crypto_dec.decrypt(ct)` decrypts the ciphertext `ct` and returns the decrypted data `pt_dec_padded`. At this point, the data length may be a multiple of 16 but still includes the padding bytes.
 3. `unpad(pt_dec_padded)` removes the 0x00 padding bytes at the end of the decrypted data to obtain the original plaintext pt_dec.
 4. `pt_dec == pt` is used to verify whether the decrypted data is the same as the original plaintext. If they are the same, it indicates that the encryption and decryption process was successful and outputs True; otherwise, outputs False.
-
-
 
 ## 2.14 Multi-threading Experiment
 

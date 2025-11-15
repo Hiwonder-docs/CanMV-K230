@@ -1,4 +1,4 @@
-# Quick Start Guide (Must Read)
+# README
 
 ## 1. K230 Tutorials Directory
 
@@ -6,7 +6,7 @@
 
 1. **Tutorials:** This folder includes both basic robot peripherals and advanced visual graphics functionalities, designed to help individuals at different stages quickly get started. It provides detailed tutorials and complete example projects, guiding learners from beginners to independent developers.  
 2. **Softwares:** The full software toolset for the K230 development board is provided, including the CanMV IDE integrated development environment, image flashing tool, serial terminal, SD card formatting tool, network debugging assistant, and communication tool MQTT Assistant. This toolset meets all the requirements from development and flashing to debugging.
-3. **Chip Documentation&System Image&AI Model Files:** Includes system image, AI model files, pin definitions, and chip documentation, such as data sheets, reference manuals, etc.
+3. **Chip Documentation & System Image & AI Model Files:** Includes system image, AI model files, pin definitions, and chip documentation, such as data sheets, reference manuals, etc.
 4. **Program Source Code:** Includes source code for K230 visual graphics algorithms, open for modification.
 
 ## 2. Introduction to Tutorials (Key Focus)
@@ -16,31 +16,31 @@ This section introduces the course content directory within **1. Tutorials**.
 <img  class="common_img" src="../_static/media/chapter_0/media/image2.png" />
 
 1. **Quick Start Guide:** Provides an introduction to the basic functions of K230, example programs, usage tutorials, and important notes.
-   
+
 <img  class="common_img" src="../_static/media/chapter_0/media/image3.png" />
-   
+
 2. **Basic Course:** Provides K230 basic peripheral applications, covering control of basic peripherals such as GPIO, PWM, ADC, RTC, WDT, and TIMER, as well as examples for communication protocols like UART, I2C, and SPI. It also includes advanced experiments on FFT, SHA256/AES encryption, multithreading, and file reading and writing.
-   
+
 <img  class="common_img" src="../_static/media/chapter_0/media/image4.png" />
-   
+
 3. **Multimedia Course:** Provides multimedia and interactive application examples, covering experiments on screen display, audio playback and recording, video processing, and graphical user interface (LVGI).
-   
+
 <img  class="common_img" src="../_static/media/chapter_0/media/image5.png" />
-   
+
 4. **OpenMV Course (Key Focus):** Provides a rich set of machine vision algorithm examples, covering **color recognition**, such as single/multi-color recognition, object counting, and visual line following, **code recognition**, such as QR code, barcode, DM code, and AprilTags, and **image detection**, such as detection for lines, rectangles, circles, feature points, edge, etc. 
-   
+
 <img  class="common_img" src="../_static/media/chapter_0/media/image6.png" />
-   
+
 5. **AI Vision Course:** Provides a variety of AI application examples, including face recognition and analysis, such as detection, keypoint identification, 3D modeling, pose estimation, and identity recognition. It also covers human detection and analysis, including detection, keypoint identification, and fall detection. Additionally, the course includes hand recognition and gesture interaction, featuring hand palm recognition, keypoint detection and classification, dynamic gesture recognition, and the 'Rock Paper Scissors' game. It also covers license plate and character recognition, as well as advanced vision tasks like self-learning, object detection, object segmentation, and target tracking using YOLOv8.
-   
+
 <img  class="common_img" src="../_static/media/chapter_0/media/image7.png" />
-   
+
 6. **Network Basics Course:** Provides comprehensive network communication examples, covering both wired and wireless network connections, TCP/UDP communication with support for Client/Server modes, and HTTP applications with both Client and Server experiments.
-   
+
 <img  class="common_img" src="../_static/media/chapter_0/media/image8.png" />
-   
-7. **Touch Control Course:** Provides touch interaction application examples, including touch detection, touch drawing board, and touch photography functionality. 
-   
+
+7. **Touch Control Course:** Provides touch interaction application examples, including touch detection, touch drawing board, and touch photography functionality.
+
 <img  class="common_img" src="../_static/media/chapter_0/media/image9.png" />
 
 ## 3. Learning Roadmap

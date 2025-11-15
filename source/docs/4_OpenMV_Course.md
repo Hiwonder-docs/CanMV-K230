@@ -12,6 +12,7 @@ In this section, you will learn the K230 development board's color recognition c
 
 1)  Connect the K230 development board to your PC using a Type-C data cable, as shown in the figure below:
     
+
 <img class="common_img" src="../_static/media/chapter_4/section_1/media/image2.png"  width="500px" />
 
 2)  Double-click to open CanMV IDE K230.
@@ -82,6 +83,7 @@ Place the target color block in front of the camera, then click the button **Dis
 
 1)  Copy the adjusted LAB threshold values.
     
+
 <img class="common_img" src="../_static/media/chapter_4/section_1/media/image13.png"  />
 
 2)  Paste the adjusted LAB threshold values into the corresponding color threshold.
@@ -213,6 +215,7 @@ This section demonstrates how to use the K230 board to recognize multiple colors
 
 1)  Connect the K230 development board to your PC using a Type-C data cable, as shown in the figure below:
     
+
 <img class="common_img" src="../_static/media/chapter_4/section_2/media/image2.png" width="500px"  />
 
 2)  Double-click to open CanMV IDE K230.
@@ -265,6 +268,7 @@ Place the target color block in front of the camera, then click the button **Dis
 
 1)  Click Tools in the upper-left corner, then select **Machine Vision** and open the **Threshold Editor**.
     
+
 <img class="common_img" src="../_static/media/chapter_4/section_2/media/image10.png"  />
 
 2)  Select **Frame Buffer**.
@@ -283,6 +287,7 @@ Place the target color block in front of the camera, then click the button **Dis
 
 1)  Copy the adjusted LAB threshold values.
     
+
 <img class="common_img" src="../_static/media/chapter_4/section_2/media/image13.png"  />
 
 2)  Paste the adjusted LAB threshold values into the corresponding color threshold.
@@ -303,6 +308,7 @@ The K230 program supports two operation modes: online execution and offline exec
 
 1. After connection, drag the program **Color_recognition.py** to the CanMV IDE K230 code editing area. Click **Tools** on the toolbar, then select **Save open script to CanMV Board (as main.py)** as shown below:
    
+
 <img class="common_img" src="../_static/media/chapter_4/section_2/media/image16.png"  />
 
 2. Then click **Yes**.
@@ -415,6 +421,7 @@ This section demonstrates how to use a program on the K230 to count yellow jumpe
 
 1)  Connect the K230 development board to your PC using a Type-C data cable, as shown in the figure below:
     
+
 <img class="common_img" src="../_static/media/chapter_4/section_3/media/image2.png"  width="500px" />
 
 2)  Double-click to open CanMV IDE K230.
@@ -583,6 +590,7 @@ This section uses a program to demonstrate how to implement visual line followin
 
 1)  Connect the K230 development board to your PC using a Type-C data cable, as shown in the figure below:
     
+
 <img class="common_img" src="../_static/media/chapter_4/section_4/media/image2.png"  width="500px" />
 
 2)  Double-click to open CanMV IDE K230.
@@ -845,6 +853,7 @@ A 2D barcode is a graphic that records data and symbolic information, consisting
 
 1)  Connect the K230 development board to your PC using a Type-C data cable, as shown in the figure below:
     
+
 <img class="common_img" src="../_static/media/chapter_4/section_5/media/image2.png"  width="500px" />
 
 2)  Double-click to open CanMV IDE K230.
@@ -912,11 +921,11 @@ After connection, drag the program **qrcodes.py** to CanMV IDE K230 code editing
 
 Original image:
 
-<img class="common_img" src="../_static/media/chapter_4/section_5/media/image15.png" width="500px" />
+<img class="common_img" src="../_static/media/chapter_4/section_5/media/image15.png" width="250px" />
 
 When the camera faces the QR code, upon successful recognition, a red box will appear around the image. The decoded text information will be displayed next to the QR code, and the QR code data will be printed in the serial terminal.
 
-<img class="common_img" src="../_static/media/chapter_4/section_5/media/image13.png" width="500px" />
+<img class="common_img" src="../_static/media/chapter_4/section_5/media/image13.png" width="300px" />
 
 <img class="common_img" src="../_static/media/chapter_4/section_5/media/image14.png"  />
 
@@ -990,6 +999,7 @@ This section uses a program to demonstrate the barcode recognition feature of th
 
 1)  Connect the K230 development board to your PC using a Type-C data cable, as shown in the figure below:
     
+
 <img class="common_img" src="../_static/media/chapter_4/section_6/media/image2.png" width="500px"  />
 
 2)  Double-click to open CanMV IDE K230.
@@ -1060,7 +1070,7 @@ Original image:
 
 When the camera faces the barcode, upon successful recognition, a box will appear around the image, and the barcode information will be printed in the serial terminal.
 
-<img class="common_img" src="../_static/media/chapter_4/section_6/media/image13.png"  />
+<img class="common_img" src="../_static/media/chapter_4/section_6/media/image13.png" width="500px" />
 
 <img class="common_img" src="../_static/media/chapter_4/section_6/media/image14.png"  />
 
@@ -1205,6 +1215,7 @@ This section uses a program to demonstrate the DM code recognition feature of th
 
 1)  Connect the K230 development board to your PC using a Type-C data cable, as shown in the figure below:
     
+
 <img class="common_img" src="../_static/media/chapter_4/section_7/media/image2.png" width="500px"  />
 
 2)  Double-click to open CanMV IDE K230.
@@ -1271,11 +1282,11 @@ After connection, drag the program **Data Matrix.py** to CanMV IDE K230 code edi
 
 Original image:
 
-<img class="common_img" src="../_static/media/chapter_4/section_7/media/image15.png" width="500px" />
+<img class="common_img" src="../_static/media/chapter_4/section_7/media/image15.png" width="300px" />
 
 A red box will be used to highlight the Data Matrix code on the video feed. The decoded data within the code will be displayed, including the following details: dimensions (rows x columns), decoded content, rotation angle, and the current program's frame rate (FPS).
 
-<img class="common_img" src="../_static/media/chapter_4/section_7/media/image13.png" width="500px" />
+<img class="common_img" src="../_static/media/chapter_4/section_7/media/image13.png" width="300px" />
 
 <img class="common_img" src="../_static/media/chapter_4/section_7/media/image14.png"  />
 
@@ -1343,6 +1354,7 @@ This section uses a program to demonstrate the AprilTags code recognition featur
 
 1)  Connect the K230 development board to your PC using a Type-C data cable, as shown in the figure below:
     
+
 <img class="common_img" src="../_static/media/chapter_4/section_8/media/image2.png" width="500px"  />
 
 2)  Double-click to open CanMV IDE K230.
@@ -1425,11 +1437,11 @@ After connection, drag the program **AprilTags.py** from this section's director
 
 Original image:
 
-<img class="common_img" src="../_static/media/chapter_4/section_8/media/image18.png" width="500px" />
+<img class="common_img" src="../_static/media/chapter_4/section_8/media/image18.png" width="250px" />
 
 A red box will be used to highlight the four corners of the tag in the video feed. A green cross will be drawn at the center of the tag. The detailed information of the tag, including its tag family, ID number, and rotation angle, will be printed.
 
-<img class="common_img" src="../_static/media/chapter_4/section_8/media/image16.png" width="500px"  />
+<img class="common_img" src="../_static/media/chapter_4/section_8/media/image16.png" width="400px"  />
 
 <img class="common_img" src="../_static/media/chapter_4/section_8/media/image17.png"  />
 
@@ -1511,6 +1523,7 @@ This section uses a program to demonstrate the line segment detection feature of
 
 1)  Connect the K230 development board to your PC using a Type-C data cable, as shown in the figure below:
     
+
 <img class="common_img" src="../_static/media/chapter_4/section_9/media/image2.png" width="500px"  />
 
 2)  Double-click to open CanMV IDE K230.
@@ -1639,6 +1652,7 @@ This section uses a program to demonstrate the rectangle detection feature of th
 
 1)  Connect the K230 development board to your PC using a Type-C data cable, as shown in the figure below:
     
+
 <img class="common_img" src="../_static/media/chapter_4/section_10/media/image2.png"  width="500px"  />
 
 2)  Double-click to open CanMV IDE K230.
@@ -1776,6 +1790,7 @@ This section uses a program to demonstrate the circle detection feature of the K
 
 1)  Connect the K230 development board to your PC using a Type-C data cable, as shown in the figure below:
     
+
 <img class="common_img" src="../_static/media/chapter_4/section_11/media/image2.png" width="500px"  />
 
 2)  Double-click to open CanMV IDE K230.
@@ -1834,6 +1849,7 @@ After connection, drag the program **circular_detection.py** from this section's
 
 3. Once the file is written, click **OK** to confirm and complete saving the MicroPython file to the K230 development board.
    
+
 <img class="common_img" src="../_static/media/chapter_4/section_11/media/image12.png"  />
 
 **With this method, the K230 development board will automatically run the MicroPython file upon power-up without connection, enabling offline execution.**
@@ -1915,6 +1931,7 @@ This section uses a program to demonstrate the image processing and feature dete
 
 1)  Connect the K230 development board to your PC using a Type-C data cable, as shown in the figure below:
     
+
 <img class="common_img" src="../_static/media/chapter_4/section_12/media/image2.png" width="500px"  />
 
 2)  Double-click to open CanMV IDE K230.
@@ -1965,6 +1982,7 @@ After connection, drag the program **Eigenvalue_detection.py** from this section
 
 1)  After connection, drag the program **Eigenvalue_detection.py** from this section's directory to the CanMV IDE K230 code editing area. Click **Tools** on the toolbar, then select **Save open script to CanMV Board (as main.py)** as shown below:
     
+
 <img class="common_img" src="../_static/media/chapter_4/section_12/media/image10.png"  />
 
 2)  Then click **Yes**.

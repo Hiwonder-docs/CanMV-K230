@@ -311,41 +311,42 @@ To prevent the firewall from blocking TCP communication, it is recommended to te
 <img class="common_img" src="../_static/media/chapter_6/section_3/media/image2.png" />
 
 <p id ="tool_preparation"></p>
+
 * **Tool Preparation**
 
 1. In the folder [2. Software\2.6 Network Debugging Assistant](https://drive.google.com/drive/folders/1aNhRc-IejVRGrtzHUAkZy_rZWKhTOjYe?usp=sharing), double-click to open the **NetAssist.exe** network debugging assistant tool.
 
-   <img class="common_img" src="../_static/media/chapter_6/section_3/media/image3.png" />
+<img class="common_img" src="../_static/media/chapter_6/section_3/media/image3.png" />
 
 2. In **Protocol** section, select **TCP Server**.
 
-   <img class="common_img" src="../_static/media/chapter_6/section_3/media/image4.png" />
+<img class="common_img" src="../_static/media/chapter_6/section_3/media/image4.png" />
 
 3. In the **Local host addr** field, select an IP address in the same subnet as the K230 board's connected network. The **Local host addr** value of **8080** does not need to be modified.
 
-   <img class="common_img" src="../_static/media/chapter_6/section_3/media/image5.png" />
+<img class="common_img" src="../_static/media/chapter_6/section_3/media/image5.png" />
 
 4. Then click **Connect**.
 
-   <img class="common_img" src="../_static/media/chapter_6/section_3/media/image6.png" />
+<img class="common_img" src="../_static/media/chapter_6/section_3/media/image6.png" />
 
 5. In the new dialog box that appears, click **OK**.
 
-   <img class="common_img" src="../_static/media/chapter_6/section_3/media/image7.png" />
+<img class="common_img" src="../_static/media/chapter_6/section_3/media/image7.png" />
 
 * **Module Connection**
 
 1) Use a Type-C data cable to connect the K230 board to a PC, as shown below:
-   
-   <img class="common_img" src="../_static/media/chapter_6/section_3/media/image8.png" style="width:500px" />
+
+<img class="common_img" src="../_static/media/chapter_6/section_3/media/image8.png" style="width:500px" />
 
 2) Double-click to open CanMV IDE K230.
-   
-   <img class="common_img" src="../_static/media/chapter_6/section_3/media/image9.png" />
+
+<img class="common_img" src="../_static/media/chapter_6/section_3/media/image9.png" />
 
 3) Click the connection button in the bottom-left corner.
-   
-   <img class="common_img" src="../_static/media/chapter_6/section_3/media/image10.png" />
+
+<img class="common_img" src="../_static/media/chapter_6/section_3/media/image10.png" />
 
 4) Upon successful connection, the icon in the bottom-left corner of the CanMV IDE software will change as shown below.
    
@@ -353,7 +354,6 @@ To prevent the firewall from blocking TCP communication, it is recommended to te
 <img class="common_img" src="../_static/media/chapter_6/section_3/media/image11.png" />
 
 5) If the connection takes longer than 10 seconds, it indicates a connection failure. Click the **Cancel** button, and a pop-up will appear as shown below. Click **OK** and recheck the connection.
-   
 
 <img class="common_img" src="../_static/media/chapter_6/section_3/media/image12.png" />
 
@@ -374,39 +374,39 @@ In this mode, after connecting, drag the program **TCP_Client.py** into CanMV ID
 
 1) Locate the codes highlighted in the red box.
    
-   <img class="common_img" src="../_static/media/chapter_6/section_3/media/image13.png" />
+
+<img class="common_img" src="../_static/media/chapter_6/section_3/media/image13.png" />
 
 2) Enter the name and password of the same hotspot connected to the computer.
-   
+
 3) Locate the codes highlighted in the red box.
-   
-   <img class="common_img" src="../_static/media/chapter_6/section_3/media/image14.png" />
+
+<img class="common_img" src="../_static/media/chapter_6/section_3/media/image14.png" />
 
 4) Enter the IP address set in [Tool Preparation](#tool_preparation).
-   
+
 5) In the code editing area, click the run button in the bottom-left corner <img src="../_static/media/chapter_6/section_3/media/image15.png" /> to execute the program online, as shown below:
-   
-   > [!NOTE]
-   > **Programs run using this method will be lost upon disconnection or power-off and will not be saved on the development board.**
-   
-   <img class="common_img" src="../_static/media/chapter_6/section_3/media/image16.png" />
+
+> [!NOTE]
+> **Programs run using this method will be lost upon disconnection or power-off and will not be saved on the development board.**
+
+<img class="common_img" src="../_static/media/chapter_6/section_3/media/image16.png" />
 
 **Offline Execution:**
 
 1. After connecting, drag the program **TCP_Client.py** from this section's directory into the CanMV IDE K230 code editing area. Click on **Tools** in the toolbar and select **Save open script to CanMV Board (as main.py)** as shown below:
-   
-   <img class="common_img" src="../_static/media/chapter_6/section_3/media/image17.png" />
+
+<img class="common_img" src="../_static/media/chapter_6/section_3/media/image17.png" />
 
 2. Then click **Yes**.
-   
-   <img class="common_img" src="../_static/media/chapter_6/section_3/media/image18.png" />
+
+<img class="common_img" src="../_static/media/chapter_6/section_3/media/image18.png" />
 
 3. Once the file is written, click **OK** to confirm and complete saving the MicroPython file to the K230 development board.
-   
-   <img class="common_img" src="../_static/media/chapter_6/section_3/media/image19.png" />
 
-   **With this method, the K230 board will automatically run the MicroPython file upon power-up without connection, enabling offline execution.**
+<img class="common_img" src="../_static/media/chapter_6/section_3/media/image19.png" />
 
+**With this method, the K230 board will automatically run the MicroPython file upon power-up without connection, enabling offline execution.**
 
 ### 6.3.4 Program Outcome
 
@@ -534,24 +534,22 @@ To prevent the firewall from blocking TCP communication, it is recommended to te
 * **Module Connection**
 
 1) Use a Type-C data cable to connect the K230 board to a PC, as shown below:
-   
-   <img class="common_img" src="../_static/media/chapter_6/section_4/media/image3.png" style="width:500px"/>
+
+<img class="common_img" src="../_static/media/chapter_6/section_4/media/image3.png" style="width:500px"/>
 
 2) Double-click to open CanMV IDE K230.
-   
-   <img class="common_img" src="../_static/media/chapter_6/section_4/media/image4.png" />
+
+<img class="common_img" src="../_static/media/chapter_6/section_4/media/image4.png" />
 
 3) Click the connection button in the bottom-left corner.
-   
-   <img class="common_img" src="../_static/media/chapter_6/section_4/media/image5.png" />
+
+<img class="common_img" src="../_static/media/chapter_6/section_4/media/image5.png" />
 
 4) Upon successful connection, the icon in the bottom-left corner of the CanMV IDE software will change as shown below.
-   
 
 <img class="common_img" src="../_static/media/chapter_6/section_4/media/image6.png" />
 
 5) If the connection takes longer than 10 seconds, it indicates a connection failure. Click the **Cancel** button, and a pop-up will appear as shown below. Click **OK** and recheck the connection.
-   
 
 <img class="common_img" src="../_static/media/chapter_6/section_4/media/image7.png" />
 
@@ -572,38 +570,40 @@ In this mode, after connecting, drag the program **TCP_Server.py** from this sec
 
 1) Locate the codes highlighted in the red box.
    
-   <img class="common_img" src="../_static/media/chapter_6/section_4/media/image8.png" />
+
+<img class="common_img" src="../_static/media/chapter_6/section_4/media/image8.png" />
 
 2) Enter the name and password of the same hotspot connected to the computer.
    
 3) In the code editing area, click the run button in the bottom-left corner <img src="../_static/media/chapter_6/section_4/media/image9.png" /> to execute the program online, as shown below:
-   
-   > [!NOTE]
-   > **Programs run using this method will be lost upon disconnection or power-off and will not be saved on the development board.**
-   
-   <img class="common_img" src="../_static/media/chapter_6/section_4/media/image10.png" />
+
+> [!NOTE]
+> **Programs run using this method will be lost upon disconnection or power-off and will not be saved on the development board.**
+
+<img class="common_img" src="../_static/media/chapter_6/section_4/media/image10.png" />
 
 **Offline Execution:**
 
 1. After connecting, drag the program **TCP_Server.py** from this section's directory into the CanMV IDE K230 code editing area. Click on **Tools** in the toolbar and select **Save open script to CanMV Board (as main.py)** as shown below:
-   
-   <img class="common_img" src="../_static/media/chapter_6/section_4/media/image11.png" />
+
+<img class="common_img" src="../_static/media/chapter_6/section_4/media/image11.png" />
 
 2. Then click **Yes**.
-   
-   <img class="common_img" src="../_static/media/chapter_6/section_4/media/image12.png" />
+
+<img class="common_img" src="../_static/media/chapter_6/section_4/media/image12.png" />
 
 3. Once the file is written, click **OK** to confirm and complete saving the MicroPython file to the K230 development board.
    
-   <img class="common_img" src="../_static/media/chapter_6/section_4/media/image13.png" />
 
-   **With this method, the K230 board will automatically run the MicroPython file upon power-up without connection, enabling offline execution.**
+<img class="common_img" src="../_static/media/chapter_6/section_4/media/image13.png" />
+
+**With this method, the K230 board will automatically run the MicroPython file upon power-up without connection, enabling offline execution.**
 
 * **Tool Preparation**
 
 1) In the folder [2. Software Tools\2.6 Network Debugging Assistant](https://drive.google.com/drive/folders/1aNhRc-IejVRGrtzHUAkZy_rZWKhTOjYe?usp=sharing), double-click to open the **NetAssist.exe** network debugging assistant tool.
-   
-   <img class="common_img" src="../_static/media/chapter_6/section_4/media/image14.png" />
+
+<img class="common_img" src="../_static/media/chapter_6/section_4/media/image14.png" />
 
 2) In **Protocol** section, select **TCP Server**.
    
@@ -773,29 +773,29 @@ To prevent the firewall from blocking UDP communication, it is recommended to te
 
 2. In **Protocol** section, select **UDP**.
 
-   <img class="common_img" src="../_static/media/chapter_6/section_5/media/image4.png"  />
+<img class="common_img" src="../_static/media/chapter_6/section_5/media/image4.png"  />
 
 3. In the **Local host addr** field, select an IP address in the same subnet as the K230 board's connected network. The **Local host addr** value of **8080** does not need to be modified.
 
-   <img class="common_img" src="../_static/media/chapter_6/section_5/media/image5.png"  />
+<img class="common_img" src="../_static/media/chapter_6/section_5/media/image5.png"  />
 
 4. Then click **Open**.
 
-   <img class="common_img" src="../_static/media/chapter_6/section_5/media/image6.png"  />
+<img class="common_img" src="../_static/media/chapter_6/section_5/media/image6.png"  />
 
 ### 6.5.3 Module Connection
 
 1. Connect the K230 development board to your PC using a Type-C data cable, as shown below:
 
-   <img class="common_img" src="../_static/media/chapter_6/section_5/media/image7.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_6/section_5/media/image7.png" style="width:500px" />
 
 2. Double-click to open CanMV IDE K230.
 
-   <img class="common_img" src="../_static/media/chapter_6/section_5/media/image8.png"  />
+<img class="common_img" src="../_static/media/chapter_6/section_5/media/image8.png"  />
 
 3. Click the connect button in the bottom left corner.
 
-   <img class="common_img" src="../_static/media/chapter_6/section_5/media/image9.png"  />
+<img class="common_img" src="../_static/media/chapter_6/section_5/media/image9.png"  />
 
 4. Upon successful connection, the icon in the bottom left of CanMV IDE will change as shown below.
 
@@ -1027,7 +1027,7 @@ After connection, drag the program **UDP_Server.py** from the same directory to 
 
 * **Tool Preparation**
 
-1. In the folder [2. Software\2.6 Network Debugging Assistant](), double-click to open the **NetAssist.exe** network debugging assistant tool.
+1. In the folder [2. Software\2.6 Network Debugging Assistant](https://drive.google.com/drive/folders/1aNhRc-IejVRGrtzHUAkZy_rZWKhTOjYe?usp=sharing), double-click to open the **NetAssist.exe** network debugging assistant tool.
 
    <img class="common_img" src="../_static/media/chapter_6/section_6/media/image14.png"  />
 

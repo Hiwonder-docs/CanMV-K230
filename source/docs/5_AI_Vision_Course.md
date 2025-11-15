@@ -78,7 +78,7 @@ In this mode, after connecting, drag the program **face_detection.py** into CanM
 
 In the transmitted video feed, perform real-time face detection and highlight the detected faces with a purple box.
 
-<img class="common_img" src="../_static/media/chapter_5/section_1/media/image13.png"  />
+<img class="common_img" src="../_static/media/chapter_5/section_1/media/image13.png" style="width:400px;" />
 
 ### 5.1.5 Program Analysis
 
@@ -245,7 +245,7 @@ The K230 program supports two operation modes: online execution and offline exec
 
 **Online Execution:**
 
-In this mode, after connecting, drag the program **face_landmark.py** into CanMV IDE K230's code editing area. Then, click the run button in the bottom-left corner <img src="../_static/media/chapter_5/section_2/media/image8.png"  />, and the program will run online, as shown below:
+In this mode, after connecting, drag the program **face_landmark.py** into CanMV IDE K230's code editing area. Then, click the run button in the bottom-left corner <img src="../_static/media/chapter_5/section_2/media/image8.png"/>, and the program will run online, as shown below:
 
 > [!NOTE]
 >
@@ -491,7 +491,7 @@ The K230 program supports two operation modes: online execution and offline exec
 
 **Online Execution:**
 
-In this mode, after connecting, drag the program **face_mesh.py** into CanMV IDE K230's code editing area. Then, click the run button in the bottom-left corner <img class="common_img" src="../_static/media/chapter_5/section_3/media/image8.png"  />, and the program will run online, as shown below:
+In this mode, after connecting, drag the program **face_mesh.py** into CanMV IDE K230's code editing area. Then, click the run button in the bottom-left corner <img src="../_static/media/chapter_5/section_3/media/image8.png"  />, and the program will run online, as shown below:
 
 > [!NOTE]
 >
