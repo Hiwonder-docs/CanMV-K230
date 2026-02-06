@@ -1,7 +1,8 @@
 # 8. Online Model Training
 
-<p id="anther_8_1"></p>
+
 ## 8.1 Training Data Preparation
+<p id="anther_8_1"></p>
 
 The [**7. Touch Control Course - Touch Photography**](https://docs.hiwonder.com/projects/CanMV-K230/en/latest/docs/7_Touch_Control_Course.html#touch-photography) routine is utilized to collect the corresponding dataset. Refer to the 7.3 Touch Photography section of the **7. Touch Control Course** for specific procedures on capturing and saving the dataset images.
 
@@ -211,3 +212,4 @@ HDMI display mode:
 9.   The achieved effect is shown in the figure below.
 
 <img class="common_img" src="../_static/media/chapter_9/section_1/media/image29.png" width="600px"/>
+
