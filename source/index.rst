@@ -19,4 +19,5 @@ CanMV K230
    docs/5_AI_Vision_Course.md
    docs/6_Network_Basics_Course.md
    docs/7_Touch_Control_Course.md
+   docs/8_Online_Model_Training.md
    Download <https://drive.google.com/drive/folders/1QlR9Q1d5R_5Td2ZEbtUwZYNa_fJcSeCf?usp=sharing>
