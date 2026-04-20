@@ -20,4 +20,5 @@ CanMV K230
    docs/6_Network_Basics_Course.md
    docs/7_Touch_Control_Course.md
    docs/8_Online_Model_Training.md
+   docs/9_Local_Model_Training_(YOLOv8).md
    Download <https://drive.google.com/drive/folders/1QlR9Q1d5R_5Td2ZEbtUwZYNa_fJcSeCf?usp=sharing>
